@@ -1,3 +1,7 @@
+*** CHMOD ***
+chmod +x filename - 
+
+
 *** CRONTAB ***
 
 change minutes 45 * * * * at every hour and 45 minutes 0 - 59
