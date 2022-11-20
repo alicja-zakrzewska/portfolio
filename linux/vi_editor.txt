@@ -1,0 +1,67 @@
+*** VI EDITING ***
+
+ESC - command mode (turn off insert mode)
+
+i - edit mode
+
+a - write after cursor (goes into insert mode)
+
+A - write at the end of line (first goes into insert mode)
+
+cw - change word
+
+C - delete the rest of the line and insert new text
+
+dd - delete
+
+4dd - delete 4 lines
+
+dw - delete word
+
+2dw - delete 2 words
+
+D - delete the rest of the line after cursor
+
+yy - paste
+
+p - put text after the cursor
+
+O - start new line above
+
+o -  start new line below
+
+u - undo last change
+
+U - undo all changes in the entire line
+
+x - delete character at the cursor
+
+r - replace character
+
+R - overwrite characters from cursor onward
+
+s - substitute one character under cursor and continue to insert
+
+S - substitute entire line and begin to insert at the beginning of it
+
+~ - change case of an individual character
+
+
+*** MOVING WITHIN A FILE ***
+
+can use arrow keys
+
+k - move cursor up
+j - move cursor down
+h - move cursor left
+l - move cursor right
+
+
+*** SAVING AND CLOSING FILE ***
+
+first ESC to go into command mode
+
+Shift + zz - save and quit
+:w - save
+:q! - quit without saving
+:wq - save and quit
