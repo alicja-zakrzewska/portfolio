@@ -1,0 +1,15 @@
+*** CHMOD ***
+chmod +x filename - 
+
+
+*** CRONTAB ***
+
+change minutes 45 * * * * at every hour and 45 minutes 0 - 59
+change hours * 2 * * * at 2 am 0 - 23
+change day * * * 31 * * on the 31st 1 - 31
+change month * * * 12 * in December 1 - 12
+change day of the week * * * * 0 on Sundays 0 - 6 - goes Sunday to Saturday
+crontab -e - create a crontab entry
+crontab -r - delete a crontab entry
+crontab -l - print all crontab entries for logged in user
+service --status-all - check if Cron daemon is running
