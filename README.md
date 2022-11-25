@@ -1,4 +1,3 @@
-
 # portfolio
 Here I will keep demonstrating my practical projects and professional experience in IT.
 
