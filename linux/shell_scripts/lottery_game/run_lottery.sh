@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#
+# Created on Mon Dec 26 2022 6:59:28 PM
+#
+# Author: Alicja Zakrzewska
+#
+
 # draw 5 lottery numbers 1 - 50 and 1 bonus draw 1-10
 
 today=`date +%y%m%d`

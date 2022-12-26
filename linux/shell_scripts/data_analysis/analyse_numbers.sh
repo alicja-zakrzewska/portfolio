@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Created on Mon Dec 26 2022 6:37:11 PM
+#
+# Author: Alicja Zakrzewska
+#
+
+
 # Prompt the user for a series of 5-10 integers. A minimum of 5 numbers.
 # After the user has entered 5 numbers, allow the user to stop entry or enter another number.
 # When the user chooses to stop or after 10 numbers have been entered, 

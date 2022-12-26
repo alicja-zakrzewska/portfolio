@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#
+# Created on Mon Dec 26 2022 6:38:07 PM
+#
+# Author: Alicja Zakrzewska
+#
+
+
 # check user's lottery numbers, tell the user how many wins
 
 read -p "Give 6 numbers, 5 max 50, the last one max 10: " n0 n1 n2 n3 n4 n5

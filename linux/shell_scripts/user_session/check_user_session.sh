@@ -1,5 +1,11 @@
 #!/bin/bash
-# Written by : Alicja Zakrzewska
+
+#
+# Created on Mon Dec 26 2022 7:01:32 PM
+#
+# Author: Alicja Zakrzewska
+#
+
 
 # This script tells the user
 # What their username is
