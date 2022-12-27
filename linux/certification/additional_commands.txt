@@ -1,0 +1,11 @@
+/*
+ * Created on Mon Dec 26 2022 7:55:11 PM
+ *
+ * Author: Alicja Zakrzewska
+ */
+
+ls -la - long list, show hidden (a for "all")
+
+cp new_file.txt new_dir - copy file to a directory
+
+rmdir / rm -r - remove directory
