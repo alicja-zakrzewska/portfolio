@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#
+# Created on Mon Dec 26 2022 7:00:47 PM
+#
+# Author: Alicja Zakrzewska
+#
+
 # quiz where the answer is always true or false, checks the answers
 
 # could display result at the end of the quiz for more functionality

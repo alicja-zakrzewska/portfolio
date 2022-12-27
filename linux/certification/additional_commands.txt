@@ -1,0 +1,40 @@
+/*
+ * Created on Mon Dec 26 2022 7:55:11 PM
+ *
+ * Author: Alicja Zakrzewska
+ */
+
+ls -la - long list, show hidden (a for "all")
+
+cp new_file.txt new_dir - copy file to a directory
+
+rmdir / rm -r - remove directory
+
+cat /etc/passwd - show all users
+
+sudo groupadd nameofgroup - add a new group
+
+sudo groupdel nameofgroup - delete a group
+
+sudo usermod -G wywmgroup withyouwithme - add a user to a group
+
+sudo useradd withyouwithme - add a new user
+
+sudo passwd - change / add password to logged in user
+
+"su" - Switch User
+
+"sudo" - Super User DO
+
+su - / sudo -i - switch to root
+
+su - alicja - switch user to alicja
+
+sudo usermod -G sudo alicja - add alicja to super user group
+
+sudo userdel user1 - delete user1
+
+clear - clear the terminal
+
+cat etc/group - show all groups, individual user groups are created by default
+

@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#
+# Created on Mon Dec 26 2022 7:01:09 PM
+#
+# Author: Alicja Zakrzewska
+#
+
 read -p "Please give me a long number: " number
 
 len=${#number}
