@@ -1,0 +1,31 @@
+/*
+ * Created on Thu Dec 29 2022 5:09:59 PM
+ *
+ * Author: Alicja Zakrzewska
+ */
+
+ # The Five Main Types of Networks
+
+ Local Area Network (LAN) 
+
+ Wireless Local Area Network (WLAN)
+
+ Wide Area Network (WAN)
+
+ Virtual Local Area Network (VLAN)
+
+ Virtual Private Network (VPN)
+
+
+ # The Internet of Things (IoT). These are physical objects with sensors, software, 
+ and processing ability that exchange this information over the internet. 
+
+ Cameras
+
+ Door Bells
+
+ Refrigerators
+
+ Airconditioning Systems 
+
+
