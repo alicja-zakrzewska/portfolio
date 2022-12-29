@@ -1,5 +1,9 @@
 *** QUERYING LINUX INSTANCE AND MODIFYING IT ***
 
+sudo --help - get help for a particular feature
+
+man - show manual for all commands
+
 ls -ltr - list files in reverse from earliest to latest (list time reverse)
 
 .bash_history - see bash terminal history
@@ -7,6 +11,10 @@ ls -ltr - list files in reverse from earliest to latest (list time reverse)
 cd ~ / cd - go to home directory
 
 cd / - go to root
+
+cd . - stay in the current directory
+
+cd .. - go up on the directory tree
 
 operator >  - overwrite
 

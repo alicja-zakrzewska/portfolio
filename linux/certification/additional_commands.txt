@@ -4,19 +4,57 @@
  * Author: Alicja Zakrzewska
  */
 
+# General file and directory operations
+
+ls -l - long list, show permissions
+
 ls -la - long list, show hidden (a for "all")
 
 cp new_file.txt new_dir - copy file to a directory
 
-rmdir / rm -r - remove directory
+rmdir - remove directory
+
+rm -r - remove recoursively, directory and all its contents
+
+
+# File and directory permissions and ownership
+
+r - read (open, read) files and directories - octal value 4
+
+w - write (edit, delete) files and directories - octal value 2
+
+x - execute (run) files and directories - octal value 1
+
+"-" - lack of permission
+
+chmod ugo+x - add permission to execute for all
+
+ugo - user, group, others
+
+chmod g+w - add permission to write for associated group
+
+chown username:groupname filename - modify ownership of file or directory
+
+alicja@MSI:~/scripting$ sudo chown alicja:wywmgroup a9.sh
+
+$ ls -l advanced_commands.txt - show long listing of a single file
+
+-rw-r--r-- 1 zakrz 197609 516 Nov 25 14:16 advanced_commands.txt - user is 1 and group is zakrz
+
+
+# Group and user administration
 
 cat /etc/passwd - show all users
+
+cat etc/group - show all groups, individual user groups are created by default
 
 sudo groupadd nameofgroup - add a new group
 
 sudo groupdel nameofgroup - delete a group
 
 sudo usermod -G wywmgroup withyouwithme - add a user to a group
+
+sudo adduser wywmuser - add a new user with personal info and create a password
 
 sudo useradd withyouwithme - add a new user
 
@@ -35,6 +73,4 @@ sudo usermod -G sudo alicja - add alicja to super user group
 sudo userdel user1 - delete user1
 
 clear - clear the terminal
-
-cat etc/group - show all groups, individual user groups are created by default
 
