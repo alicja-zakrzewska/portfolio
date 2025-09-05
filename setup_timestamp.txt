@@ -1,0 +1,33 @@
+To setup timestamps in Visual Studio Code, you need to create a json code snippet file. Click on View
+in the top menu then Command Pallette... and type Snippets: Configure Snippets, click on that and then
+you can select New Global Snippets file. Type for example snippet.json. Then it will open up a file
+called 'snippet.json.code-snippets" and you can put your code there. For example:
+
+{
+	"Do something": {
+	"prefix": "d",
+	"body": [
+		"Text text text"
+	],
+	"description": "Something"
+	}
+
+}
+
+Then afterwards you will need to access the keybinding file.
+
+Control + Shift + P
+Type: Preferences: Open Keyboard Shortcuts (JSON)
+This opens the keybindings.json file where you can define custom shortcuts.
+
+Add a keybinding code as below:
+
+{
+  "key": "alt+d",
+  "command": "editor.action.insertSnippet",
+  "when": "editorTextFocus",
+  "args": {
+    # this has to be the exact name of the snippet, first line, the part before ': {'
+    "name": "Do something"
+  }
+}
