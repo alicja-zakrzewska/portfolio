@@ -1,6 +1,4 @@
 # portfolio
-Here I will keep demonstrating my practical projects and professional experience in IT.
+Here I will keep demonstrating my practical projects and professional experience in Linux shell scripting, Windows batch scripting & Python.
 
-I am interested in Graduate and Junior Roles. I have working knowledge of Linux, Shell Scripting, Java, Python, Jenkins, Kubernetes, Grafana, SQL and more!
-
-My preferred roles are: Cyber Security Engineer, IT Support, OS Administrator, Production Support Analyst, IT Analyst, End User DevOps Engineer. Please reach out to me to discuss my career profile further.
+Connect with me on Linkedin https://www.linkedin.com/in/alicja-zakrzewka/
