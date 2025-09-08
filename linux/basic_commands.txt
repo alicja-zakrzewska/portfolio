@@ -1,12 +1,8 @@
-*** QUERYING LINUX INSTANCE AND MODIFYING IT ***
-
-sudo --help - get help for a particular feature
+*** QUERYING LINUX INSTANCE ***
 
 man - show manual for all commands
 
-ls -ltr - list files in reverse from earliest to latest (list time reverse)
-
-.bash_history - see bash terminal history
+ls- list files in current directory
 
 cd ~ / cd - go to home directory
 
@@ -16,24 +12,3 @@ cd . - stay in the current directory
 
 cd .. - go up on the directory tree
 
-operator >  - overwrite
-
-operator >> - append
-
-operator & at the end of a command - means the command will run in the background
-
-free -s 5 - display memory usage every 5 seconds
-
-rm -i - ask for confirmation before deleting files
-
-cp -r Project Project.backup - copy entire directory structure
-
-2>&1 - Send the standard error to the same place as the output
-
-date; ls -l - use ; to run commands one after another
-
-df -h - display size of files in directory in human readable format
-
-grep ‘ Linux$ ‘ textfile - find Linux at end of lines in textfile
-
-pipe | output of first command as input of second command
