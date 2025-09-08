@@ -1,5 +1,36 @@
+*** QUERYING LINUX INSTANCE AND MODIFYING IT ***
+
+sudo --help - get help for a particular feature
+
+ls -ltr - list files in reverse from earliest to latest (list time reverse)
+
+.bash_history - see bash terminal history
+
+operator >  - overwrite
+
+operator >> - append
+
+operator & at the end of a command - means the command will run in the background
+
+free -s 5 - display memory usage every 5 seconds
+
+rm -i - ask for confirmation before deleting files
+
+cp -r Project Project.backup - copy entire directory structure
+
+2>&1 - Send the standard error to the same place as the output
+
+date; ls -l - use ; to run commands one after another
+
+df -h - display size of files in directory in human readable format
+
+grep ‘ Linux$ ‘ textfile - find Linux at end of lines in textfile
+
+pipe | output of first command as input of second command
+
+
 *** CHMOD ***
-chmod +x filename - 
+chmod +x filename - add Execute permission to the current user
 
 
 *** CRONTAB ***
@@ -13,3 +44,4 @@ crontab -e - create a crontab entry
 crontab -r - delete a crontab entry
 crontab -l - print all crontab entries for logged in user
 service --status-all - check if Cron daemon is running
+
